@@ -121,7 +121,7 @@ header {
 }
 
 .fondoOfi {
-  background-image: url("../img/negocio.jpg");
+  background-image: url("../img/negocio.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -189,6 +189,17 @@ header {
   background-color: rgb(225, 255, 0);
   font-weight: bolder;
   border-radius: 0;
+}
+
+@media (max-width: 838px) {
+  .ofiDiv2 {
+    width: 100%;
+  }
+}
+@media (max-width: 547px) {
+  .ofiDiv1 {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
