@@ -201,5 +201,15 @@ header {
     width: 100%;
   }
 }
+/* Pagina error*/
+#errorPag {
+  background-image: url(../img/pagina-error.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 87vh;
+  width: 100%;
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=style.css.map */
