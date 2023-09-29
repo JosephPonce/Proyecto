@@ -1,0 +1,39 @@
+@mixin classic {
+    font-size: $text-m;
+    font-weight: bolder;
+  }
+  /* INDEX */
+  .tituloind {
+      text-align: center;
+      text-transform: uppercase;
+    
+      /* text-decoration-style: dashed; */
+      padding: 1rem;
+      @include classic;
+      
+    }
+    /* carrousel */
+    
+    .imgcarro {
+      height: 80vh;
+      object-fit: cover;
+    }
+    
+    .tituCar {
+      @include classic;
+    }
+    
+    .carroFont {
+      font-size: $text-xs;
+      font-weight: bold;
+    }
+    
+    .fontFea {
+      @include classic;
+      text-align: center;
+    }
+    
+    .fontFea2 {
+      font-size: $text-xs;
+      text-align: center;
+    }
