@@ -202,9 +202,9 @@ header {
   }
 }
 /* Pagina error*/
-#errorPag {
+.errorPag {
   display: flex;
-  flex: row;
+  flex-direction: column;
   background-image: url(../img/pagina-error.webp);
   background-size: cover;
   background-repeat: no-repeat;
@@ -212,7 +212,13 @@ header {
   height: 84dvh;
   width: 100%;
   color: #ffffff;
-  justify-content: center;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.error {
+  font-size: 70px;
 }
 
 .btnBa {
