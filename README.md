@@ -99,3 +99,10 @@ Utilizamos practicas de seo en los Head de los html para optimizar nuestro sitio
 3. Vinculamos nuestro proyecto con el repositorio.
 4. Copn el comando Git push subimos todo a nuestro repositorio y verificando que todo ande prolijo.
 5. Agregamos un Readme y generamos pages.
+
+
+## PAGES
+
+1. https://josephponce.github.io/ProyectoFinal_JosephPonce/      
+2. Link por Vercel:
+https://exclusivo.vercel.app/
